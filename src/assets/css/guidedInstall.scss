@@ -1,0 +1,106 @@
+.install-page-section {
+  margin: 1rem;
+  .card-main {
+    background-color: var(--white-bg-color);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+
+    .card-main-header {
+      background-color: var(--main-color);
+      padding: 15px 15px 15px 25px;
+      color: var(--content-font-color);
+      border-top-right-radius: 0.25rem;
+      border-top-left-radius: 0.25rem;
+      display: flex;
+      align-items: flex-start;
+      svg {
+        margin-top: 1px;
+        cursor: pointer;
+      }
+      span {
+        margin-right: 20px;
+        font-size: 18px;
+      }
+    }
+
+    .card-main-body {
+      padding: 15px 15px 15px 25px;
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.button-area-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  //background-color: red;
+}
+
+.carousel-Area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 700px;
+  width: 700px;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-11);
+}
+
+.image-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 700px;
+  border-radius: 15px;
+}
+
+.install-image {
+  position: absolute;
+  transform: translate(0%, 0%);
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+
+  &.active {
+    opacity: 0;
+
+    transform: translate(-150%, 0%);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    //transition: opacity 0.1s ease-in-out;
+  }
+}
+
+.install-image-2 {
+  position: absolute;
+  transform: translate(150%, 0%);
+  height: 500px;
+  width: 500px;
+  opacity: 0;
+
+  &.active {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    transform: translate(0%, 0%);
+    border-radius: 15px;
+  }
+}
+
+.text-area {
+  // //display: flex;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 120px;
+  // width: 100%;
+}

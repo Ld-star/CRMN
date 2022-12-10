@@ -1,0 +1,148 @@
+{
+  "Measurements": [
+    {
+      "Type": "Temperature",
+      "Value": "103.5 ºF",
+      "DateTaken": "2022-03-30T08:43:59",
+      "Icon": "thermometer",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Temperature",
+      "Value": "101.5 ºF",
+      "DateTaken": "2022-03-30T08:43:23",
+      "Icon": "thermometer",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "85 %",
+      "DateTaken": "2022-03-30T08:31:49",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:31:49",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "88 %",
+      "DateTaken": "2022-03-30T08:30:05",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:30:05",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "88 %",
+      "DateTaken": "2022-03-30T08:27:04",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:27:04",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "88 %",
+      "DateTaken": "2022-03-30T08:24:41",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:24:41",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "88 %",
+      "DateTaken": "2022-03-30T08:22:01",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:22:01",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "91 %",
+      "DateTaken": "2022-03-30T08:20:52",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:20:52",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-30T08:18:05",
+      "Icon": "heart",
+      "DateString": "3/30",
+      "Status": "Green"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "91 %",
+      "DateTaken": "2022-03-30T08:18:05",
+      "Icon": "tint",
+      "DateString": "3/30",
+      "Status": "Red"
+    },
+    {
+      "Type": "Sp02",
+      "Value": "89 %",
+      "DateTaken": "2022-03-16T15:16:11",
+      "Icon": "tint",
+      "DateString": "3/16",
+      "Status": "Red"
+    },
+    {
+      "Type": "Pulse",
+      "Value": "88 bpm",
+      "DateTaken": "2022-03-16T15:16:11",
+      "Icon": "heart",
+      "DateString": "3/16",
+      "Status": "Green"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Hub": {
+    "ID": 351,
+    "MacAddress": "12:4b:72:63:f8:cf",
+    "LastRebootTime": null,
+    "CSQ": "99",
+    "LastActiveTime": 1613375064000,
+    "LastIPAddress": "192.168.1.10",
+    "ScriptVersion": null,
+    "RulesVersion": null,
+    "PowerSource": null,
+    "SystemsVersion": "2.0.2-beta2-ap62",
+    "OpenhabVersion": null,
+    "LinuxVersion": null,
+    "SimCardId": null,
+    "Sensors": null
+  },
+  "RebootTimes": [],
+  "CSQReadings": [],
+  "IPAddresses": [],
+  "SensorData": [],
+  "Users": [],
+  "NewSensors": [],
+  "PairedSensors": [],
+  "BleDevices": []
+}

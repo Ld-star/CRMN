@@ -1,0 +1,87 @@
+.keg-status-section {
+  padding: 1rem 0px;
+
+  /* heading section*/
+  .keg-status-heading {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--heading-bg-color);
+    padding: 10px 20px;
+    h5 {
+      color: var(--heading-font-color);
+      margin: 0 !important;
+    }
+  }
+}
+.keg-status-icons {
+  cursor: pointer;
+}
+
+.keg-status-setting-icon {
+  cursor: pointer;
+  margin-right: 10px;
+  color: var(--heading-font-color) !important;
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &.active {
+    transform: rotate(90deg);
+    transition: all 0.2s ease-in-out;
+    //box-shadow: var(--box-plastic);
+  }
+}
+
+.keg-tabs {
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.tabs-con {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox {
+  input {
+    width: 15px;
+    height: 15px;
+  }
+}
+.BLEDevices-tab-modal {
+  background: rgba(9, 9, 9, 0.664);
+  .modal-body {
+    padding: 15px !important;
+  }
+  .modal-title {
+    font-size: 20px;
+    color: var(--main-font-color);
+  }
+  .modal-header {
+    border-bottom: none !important;
+  }
+  .modal-footer {
+    border-top: none !important;
+  }
+}
+
+#bled-devices-scroll {
+  overflow: auto;
+}
+
+.ble-devices-input {
+  position: relative;
+  svg {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  input {
+    padding-right: 45px;
+  }
+}

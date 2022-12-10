@@ -1,0 +1,14 @@
+{
+  "MacAddress": "70:b3:d5:9a:e6:25",
+  "Errors": [
+    {
+      "Date": 1621268221000,
+      "DateString": "2021-05-17T11:17:01-05:00",
+      "Category": null,
+      "Source": "zwave_manager",
+      "Function": "main",
+      "Error": "Zwave network initialization failed"
+    }
+  ],
+  "OutageDetected": null
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "data_total": 257461858,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-06T00:00:00Z",
+      "end_time": "2022-05-06T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 188020299,
+    "sim_sid": null,
+    "data_download": 69441559
+  },
+  {
+    "data_total": 501388577,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-05T00:00:00Z",
+      "end_time": "2022-05-05T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 365671493,
+    "sim_sid": null,
+    "data_download": 135717084
+  },
+  {
+    "data_total": 738141410,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-04T00:00:00Z",
+      "end_time": "2022-05-04T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 540093428,
+    "sim_sid": null,
+    "data_download": 198047982
+  },
+  {
+    "data_total": 974547269,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-03T00:00:00Z",
+      "end_time": "2022-05-03T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 712844769,
+    "sim_sid": null,
+    "data_download": 261702500
+  },
+  {
+    "data_total": 1209965809,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-02T00:00:00Z",
+      "end_time": "2022-05-02T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 884935120,
+    "sim_sid": null,
+    "data_download": 325030689
+  },
+  {
+    "data_total": 1443142119,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-04-01T00:00:00Z",
+      "end_time": "2022-05-01T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1055767582,
+    "sim_sid": null,
+    "data_download": 387374537
+  },
+  {
+    "data_total": 1675904850,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-31T00:00:00Z",
+      "end_time": "2022-04-30T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1225668745,
+    "sim_sid": null,
+    "data_download": 450236105
+  },
+  {
+    "data_total": 1909255549,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-30T00:00:00Z",
+      "end_time": "2022-04-30T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1394589125,
+    "sim_sid": null,
+    "data_download": 514666424
+  },
+  {
+    "data_total": 2138407432,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-29T00:00:00Z",
+      "end_time": "2022-04-29T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1562568056,
+    "sim_sid": null,
+    "data_download": 575839376
+  },
+  {
+    "data_total": 2345225658,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-28T00:00:00Z",
+      "end_time": "2022-04-28T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1710302332,
+    "sim_sid": null,
+    "data_download": 634923326
+  },
+  {
+    "data_total": 2555448392,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-27T00:00:00Z",
+      "end_time": "2022-04-27T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 1859524671,
+    "sim_sid": null,
+    "data_download": 695923721
+  },
+  {
+    "data_total": 2761928887,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-26T00:00:00Z",
+      "end_time": "2022-04-26T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2006119542,
+    "sim_sid": null,
+    "data_download": 755809345
+  },
+  {
+    "data_total": 2971856159,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-25T00:00:00Z",
+      "end_time": "2022-04-25T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2155193173,
+    "sim_sid": null,
+    "data_download": 816662986
+  },
+  {
+    "data_total": 3188794241,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-24T00:00:00Z",
+      "end_time": "2022-04-24T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2306892510,
+    "sim_sid": null,
+    "data_download": 881901731
+  },
+  {
+    "data_total": 3422870744,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-23T00:00:00Z",
+      "end_time": "2022-04-23T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2465289690,
+    "sim_sid": null,
+    "data_download": 957581054
+  },
+  {
+    "data_total": 3654772236,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-22T00:00:00Z",
+      "end_time": "2022-04-22T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2622680369,
+    "sim_sid": null,
+    "data_download": 1032091867
+  },
+  {
+    "data_total": 3878741028,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-21T00:00:00Z",
+      "end_time": "2022-04-21T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2776248751,
+    "sim_sid": null,
+    "data_download": 1102492277
+  },
+  {
+    "data_total": 4088733902,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-20T00:00:00Z",
+      "end_time": "2022-04-20T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 2925785731,
+    "sim_sid": null,
+    "data_download": 1162948171
+  },
+  {
+    "data_total": 4302420898,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-19T00:00:00Z",
+      "end_time": "2022-04-19T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3075299133,
+    "sim_sid": null,
+    "data_download": 1227121765
+  },
+  {
+    "data_total": 4510492366,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-18T00:00:00Z",
+      "end_time": "2022-04-18T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3220609096,
+    "sim_sid": null,
+    "data_download": 1289883270
+  },
+  {
+    "data_total": 4711980539,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-17T00:00:00Z",
+      "end_time": "2022-04-17T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3363310068,
+    "sim_sid": null,
+    "data_download": 1348670471
+  },
+  {
+    "data_total": 4907742312,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-16T00:00:00Z",
+      "end_time": "2022-04-16T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3502759504,
+    "sim_sid": null,
+    "data_download": 1404982808
+  },
+  {
+    "data_total": 5086004085,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-15T00:00:00Z",
+      "end_time": "2022-04-15T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3627574017,
+    "sim_sid": null,
+    "data_download": 1458430068
+  },
+  {
+    "data_total": 5274864815,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-14T00:00:00Z",
+      "end_time": "2022-04-14T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3760498200,
+    "sim_sid": null,
+    "data_download": 1514366615
+  },
+  {
+    "data_total": 5478112890,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-13T00:00:00Z",
+      "end_time": "2022-04-13T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3897624226,
+    "sim_sid": null,
+    "data_download": 1580488664
+  },
+  {
+    "data_total": 5478112890,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-13T00:00:00Z",
+      "end_time": "2022-04-13T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 3897624226,
+    "sim_sid": null,
+    "data_download": 1580488664
+  },
+  {
+    "data_total": 5666385563,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-12T00:00:00Z",
+      "end_time": "2022-04-12T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 4026576578,
+    "sim_sid": null,
+    "data_download": 1639808985
+  },
+  {
+    "data_total": 5851798196,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-11T00:00:00Z",
+      "end_time": "2022-04-11T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 4159496208,
+    "sim_sid": null,
+    "data_download": 1692301988
+  },
+  {
+    "data_total": 6034320648,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-10T00:00:00Z",
+      "end_time": "2022-04-10T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 4289857457,
+    "sim_sid": null,
+    "data_download": 1744463191
+  },
+  {
+    "data_total": 6211920218,
+    "account_sid": "LK6f4e8f6ws78e2e5c88s58",
+    "network_sid": null,
+    "period": {
+      "start_time": "2022-03-09T00:00:00Z",
+      "end_time": "2022-04-09T00:00:00Z"
+    },
+    "iso_country": null,
+    "fleet_sid": null,
+    "data_upload": 4417772781,
+    "sim_sid": null,
+    "data_download": 1794147437
+  }
+]

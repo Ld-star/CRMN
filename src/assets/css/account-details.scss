@@ -1,0 +1,216 @@
+.windowScroll {
+  height: 500px;
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.textTitle {
+  font-size: 14px;
+  line-height: 1.42861;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.textResult {
+  font-size: 14px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  //background-color: var(--content-bg-color-color);
+  font-style: normal;
+}
+
+.reboot-times-text {
+  font-size: 14px;
+  line-height: 1.47059;
+  font-weight: 500;
+  letter-spacing: -0.022em;
+  color: var(--main-font-color);
+}
+/* Account Details New Styles */
+
+.account-details-sidebar-section {
+  background-color: var(--content-bg-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.account-details-tabs-section {
+  background-color: var(--content-bg-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  padding: 1rem;
+
+  .tab-pane:nth-child(1),
+  .tab-pane:nth-child(2),
+  .tab-pane:nth-child(3),
+  .tab-pane:nth-child(4),
+  .tab-pane:nth-child(5),
+  .tab-pane:nth-child(6) {
+    min-height: 73vh;
+    max-height: 73vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+.hub-tab-section {
+  padding: 20px 20px 0px 20px;
+  color: var(--main-font-color);
+}
+
+.account-sidebar-customer {
+  font-size: 18px;
+  padding: 10px;
+  background-color: var(--heading-bg-color);
+  border-radius: 2px;
+  color: var(--heading-font-color);
+}
+.account-sidebar-mac {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+
+.account-sidebar-mac span {
+  font-weight: 400;
+}
+
+.account-sidebar-id {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+.account-sidebar-id span {
+  color: var(--main-font-color);
+}
+
+/* Data Usage Tab */
+#data-usage-title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  max-height: 100% !important;
+}
+#data-usage-table {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  .table-responsive {
+    max-height: 350px !important;
+    overflow: scroll;
+  }
+}
+
+/* Logs Tab */
+#logs-tab-table {
+  margin-bottom: 0;
+  margin-top: 0;
+  .table-responsive {
+    max-height: 100% !important;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+}
+
+#orders-table {
+  max-height: 60rem !important;
+  overflow-y: scroll;
+  tr th,
+  tr td {
+    border-right: 0px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    &:nth-child(1n + 1) {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      width: 10rem;
+    }
+  }
+}
+
+#reports-table {
+  max-height: 60rem !important;
+  overflow-y: scroll;
+  tr th,
+  tr td {
+    border-right: 0px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    &:nth-child(1n + 1) {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      width: 10rem;
+    }
+  }
+}
+
+/* Firmware Table */
+#firmware-table {
+  max-height: 60rem !important;
+  overflow-y: scroll;
+  thead th[scope="row"] {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+  tbody {
+  }
+  .table-responsive {
+    max-height: 100% !important;
+  }
+}
+
+/* BLE Tab */
+#BLE-tab-table {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-height: 100% !important;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+#sensors-tab-heading {
+  margin-top: 1rem;
+}
+
+#sensor-list-tab-table {
+  max-height: 486px;
+  overflow: scroll;
+}
+
+#reboot-times-table-col {
+  margin-bottom: 1rem;
+  #reboot-times-table-div {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-height: 250px;
+    overflow: auto;
+  }
+}
+
+.data-usage-graph-div {
+  width: 100%;
+  height: 400px;
+}
+
+#zwave-sensors-table {
+  margin-top: 0;
+  overflow: auto;
+}
+
+#zwave-sensors-borders {
+  margin-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+}
+
+.zwave-tab {
+  height: 900px;
+  overflow: hidden;
+}

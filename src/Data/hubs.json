@@ -1,0 +1,17 @@
+[
+  { "ID": "11", "MacAddress": "b8:27:eb:99:e5:c3" },
+  { "ID": "17", "MacAddress": "b8:27:eb:63:89:02" },
+  { "ID": "19", "MacAddress": "b8:27:eb:d4:14:45" },
+  { "ID": "21", "MacAddress": "b8:27:eb:8d:f6:z5" },
+  { "ID": "29", "MacAddress": "b8:27:eb:8d:f6:A5" },
+  { "ID": "60", "MacAddress": "b8:27:eb:83:A6:E2" },
+  { "ID": "61", "MacAddress": "b8:27:eb:83:A6:E5" },
+  { "ID": "62", "MacAddress": "b8:27:eb:83:A6:E6" },
+  { "ID": "63", "MacAddress": "b8:27:eb:83:A6:E7" },
+  { "ID": "64", "MacAddress": "11:22:33:44:55:66" },
+  { "ID": "66", "MacAddress": "11:22:11:22:11:11" },
+  { "ID": "67", "MacAddress": "18:93:7f:86:d1:ab" },
+  { "ID": "68", "MacAddress": "18:93:7f:86:d0:47" },
+  { "ID": "69", "MacAddress": "18:93:7f:86:d0:31" },
+  { "ID": "70", "MacAddress": "B8:27:EB:FA:5D:42" }
+]

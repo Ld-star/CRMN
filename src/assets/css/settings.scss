@@ -1,0 +1,34 @@
+#settings-card {
+  min-height: 73vh;
+  max-height: 73vh;
+
+  overflow: scroll;
+  .common-card-header {
+    svg {
+      margin-right: 20px;
+      margin-top: 3px;
+    }
+  }
+  .all-settings-div {
+    .setting-item {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 10px 0px;
+      border-bottom: 1px solid var(--border-color);
+      .setting-item-title {
+        flex: 1;
+        p {
+          margin-bottom: 1px;
+        }
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+    .setting-item:last-child {
+      border-bottom: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+#custom-alert-btn-active {
+  background-color: var(--btn-main-color) !important;
+  border: none !important;
+  box-shadow: none;
+  margin: 0 10px 0 10px;
+}
+
+#custom-alert-btn-off {
+  background-color: var(--btn-sec--bg) !important;
+  border: none !important;
+  box-shadow: none;
+  margin: 0 10px 0 10px;
+  color: var(--btn-sec-text);
+}

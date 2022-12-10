@@ -1,0 +1,138 @@
+@import "./assets/css/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: var(--body-bg-color) !important;
+  min-height: 100vh;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 0px !important;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: var(--main-color);
+  color: var(--content-font-color) !important;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: var(--white-bg-color);
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: var(--main-color);
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.particles-area {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.particles-area-night {
+  @extend .particles-area;
+  background-color: var(--main-bg-color);
+}
+
+.main-area {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  z-index: 1;
+}
+
+.imageLightBG {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.logo-sec {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.logo-sec img {
+  display: block;
+  margin: auto;
+}
+
+.logo-sec2 img {
+  width: 100% !important;
+  max-width: 250px !important;
+  display: block;
+  margin: auto;
+}
+
+.form-group.required .control-label:after {
+  content: "*";
+  color: red;
+}
+
+.space-between-class {
+  justify-content: space-between;
+}
+
+.rounded {
+  border-radius: 0.5rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-bg);
+  border-radius: 10px;
+}

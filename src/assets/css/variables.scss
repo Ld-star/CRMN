@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100,200,300,400,500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200,300400,500,600,700,800&display=swap");
+
+/* 
+In this file we have all the colors that we are using in the app.
+
+I added the single base color variable for all the generic elements but for specific elements like 
+buttons, tables, headings I added specific variables for these elements as in the future if
+we want to use different colors for these elements we can simply changes their variables colors 
+and it will not affect the main base colors of the app.
+*/
+
+:root {
+  --main-font: "Poppins", sans-serif;
+  // font-size: 15px;
+  // font-weight: 500;
+
+  //Colors
+  --white-bg-color: #ffffff;
+  --light-bg-color: #fff;
+  --grey-bg-color: rgb(245, 240, 241);
+  --dark-bg-color: rgb(245, 240, 241);
+
+  --och-blue: #083260;
+  --och-gold: #f0ad00;
+
+  --blue-l3: #70feff;
+  --blue-l2: #59cbf8;
+  --blue-l1: #00cfde;
+  --blue: #00a4d6;
+  --blue-d2: #557b88;
+  --blue-d3: #3b3c47;
+
+  --yellow-l1: #fee800;
+  --yellow-l2: #fdff12;
+  --yellow: #ffd700;
+  --yellow-d1: #ff9f00;
+  --yellow-d2: #776547;
+
+  --green-l1: #04fc43;
+  --green: #42b649;
+  --green-d1: #68c82f;
+  --green-d2: #1e6e19;
+
+  --purple: #b362ff;
+  --purple-d1: #2d2b55;
+
+  --pink-l1: #ff7dcb;
+  --pink: #ff2972;
+  --pink-d1: #6f5684;
+
+  //visibility: hidden;
+  //opacity: 0;
+  //border: none;
+  //border-radius: 6px;
+  //white-space: normal;
+  //border-bottom: 1px solid var(--border-color);
+  //backdrop-filter: blur(20px);
+  //background-color: transparent
+
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  --box-shadow-1: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  --box-shadow-2: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  --box-shadow-3: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --box-shadow-4: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+    rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px,
+    rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  --box-shadow-5: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  --box-shadow-6: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  --box-shadow-7: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  --box-shadow-8: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  --box-shadow-9: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  --box-shadow-10: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  --box-shadow-11: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  --box-shadow-12: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  // --box-shadow-13: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  //   rgba(0, 0, 0, 0.3) 0px 8px 16px -8px + rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  //   rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  --box-shadow-14: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  --box-shadow-15: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  --box-shadow-16: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --box-shadow-17: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --box-shadow-18: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  --box-shadow-19: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  --box-shadow-20: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
+  --box-glow: 0 0 20px var(--blue-l3), 0 0 60px var(--blue-l3);
+  --box-glass: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
+    0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+  --box-plastic: 0 0 0 8px rgba(255, 255, 255, 0.2);
+
+  --linear-gradient-1: linear-gradient(
+    to right top,
+    #cf4af3,
+    #e73bd7,
+    #f631bc,
+    #fd31a2,
+    #ff3a8b,
+    #ff4b78,
+    #ff5e68,
+    #ff705c,
+    #ff8c51,
+    #ffaa49,
+    #ffc848,
+    #ffe652
+  );
+
+  --linear-gradient-2: linear-gradient(
+      to bottom,
+      rgb(67, 54, 80) 0%,
+      rgb(45, 41, 56) 65%,
+      rgb(13, 11, 16) 100%
+    )
+    fixed;
+
+  --linear-gradient-3: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --radial-gradient-1: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 255, 235, 1) 0%,
+    rgba(7, 58, 187, 1) 100%
+  );
+}
+
+body[data-theme="light-theme"] {
+  /* Base Colors for All Elements */
+  --main-color: var(--och-blue);
+  --main-bg-color: var(--och-blue);
+  --body-bg-color: #fff;
+  --heading-bg-color: #e9f2fa;
+  --content-bg-color: #fff;
+
+  /* Fonts color */
+
+  --main-font-color: #4e3e3c;
+  --content-font-color: #eaedf2;
+  --heading-font-color: var(--och-blue);
+  --alert-font-color: rgb(126, 46, 50);
+
+  /* Base Colors for All Primary Buttons */
+  --btn-main-color: var(--och-blue);
+  --btn-hover-color: #0d4f97;
+  --btn-text-color: #eaedf2;
+
+  /* Base Colors for All Secondary Buttons */
+  --btn-sec--bg: rgb(216, 215, 215);
+  --btn-sec-text: #3c414e;
+
+  /* Base Colors for All Tables */
+  --table-header-text: var(--och-blue);
+  --table-main-text: #3c414e;
+  --table-main-heading-bg: #f5f8fb;
+
+  /* Other */
+  --border-color: #dee2e6;
+  --form-input-bg-color: #fff;
+  --form-input-border-color: #ced4da;
+  --inactive-color: #bfbbbb;
+  --overlay-bg: rgb(255 255 255 / 30%);
+  --search-bg: rgb(255 255 255 / 31%);
+  --dropdown-bg: #f7f7f7;
+  --dropdown-hover: rgb(236 236 236);
+  --popup-bg: rgb(255 255 255);
+  --hover-menu-bg: rgba(255 255 255 / 35%);
+  --scrollbar-bg: #5b6f8588;
+}
+
+body[data-theme="dark-theme"] {
+  /* Base Colors for All Elements */
+
+  --main-color: #1b8dc2;
+  --main-bg-color: #06182b;
+  --body-bg-color: #030303;
+  --heading-bg-color: #91d5f566;
+  --content-bg-color: #1a1a1b;
+
+  //font colors
+  --main-font-color: #eaf2eb;
+  --content-font-color: #eaedf2;
+  --heading-font-color: #eaedf2;
+  --alert-font-color: #7e2e32;
+
+  /* Base Colors for All Primary Buttons */
+  --btn-main-color: #3d8fe0;
+  --btn-hover-color: #3d8fe0;
+  --btn-text-color: #eaedf2;
+
+  /* Base Colors for All Secondary Buttons */
+  --btn-sec--bg: #858d9840;
+  --btn-sec-text: #adb5bd;
+
+  /* Base Colors for All Tables */
+  --table-header-text: #eaedf2;
+  --table-main-text: #eaedf2;
+  --table-main-heading-bg: #30373f;
+
+  /* Other */
+  --border-color: #343536;
+  --form-input-bg-color: #282f36;
+  --form-input-border-color: #30373f;
+  --inactive-color: rgba(173, 181, 210, 0.78);
+  --overlay-bg: rgba(36, 39, 59, 0.3);
+  --search-bg: #14162b;
+  --dropdown-bg: #21242d;
+  --dropdown-hover: rgb(42 46 60);
+  --popup-bg: rgb(22 25 37);
+  --hover-menu-bg: rgba(12 15 25 / 30%);
+  --scrollbar-bg: rgb(1 2 3 / 40%);
+}
