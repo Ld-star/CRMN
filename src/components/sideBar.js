@@ -39,6 +39,7 @@ const SideBar = ({
   sensorData,
   getDataUsageInfo,
   lastEvent,
+  homeScreenData
 }) => {
   const [assignHomeModal, setAssignHomeModal] = useState(false);
   const [assignModeModal, setAssignModeModal] = useState(false);
@@ -83,6 +84,12 @@ const SideBar = ({
       }
     }
   };
+ 
+  const circle_color  = (type) => {
+    console.log(homeScreenData); 
+    return <div className={ 'circle-'+ homeScreenData[type] }></div>
+    
+  }
 
   const getHubStatus = (status) => {
     if (status === 0 || status === null)
@@ -219,10 +226,20 @@ const SideBar = ({
         <Row>
           <Col xs="12">
             <div className="activity-card-main ">
-              <h4>
+              <div>
+              <h4 className="text-center" >
                 {user && user.FirstName ? user.FirstName : "User"}'s
                 {" Activities"}
               </h4>
+              <div className="UserInfo_display m-2">
+                <div className="d-flex justify-content-between align-items-center text-primary"><b>Eating habits</b>{ circle_color('EatingHabits') }</div>
+                <div className="d-flex justify-content-between align-items-center text-primary"><b>Activity at Home</b>{ circle_color('DailyHomeActivity') }</div>
+                <div className="d-flex justify-content-between align-items-center text-primary"><b>Night-time Activity</b>{ circle_color('Toileting') }</div>
+                <div className="d-flex justify-content-between align-items-center text-primary"><b>Health Check</b>{ circle_color('OrderDate') }</div>
+              </div>
+              </div>
+             
+              
               <div className="activity-card-content">
                 <span className="most-recebt-activty">
                   Most Recent Activity

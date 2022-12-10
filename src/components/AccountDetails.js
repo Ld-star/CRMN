@@ -110,6 +110,7 @@ const AccountDetails = (props) => {
               user={store && store.users[0] && store.users[0]}
               props={props}
               sensorData={store && store.sensorData && store.sensorData}
+              homeScreenData = { store.homeScreenData }
             />
           </Col>
           <Col xs="12" sm="12" md="12" lg="8" xl="8">

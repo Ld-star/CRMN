@@ -46,7 +46,7 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
   margin-top: 1rem;
-  padding: 1rem;
+  padding: 1rem; 
 
   .tab-pane:nth-child(1),
   .tab-pane:nth-child(2),
@@ -213,4 +213,9 @@
 .zwave-tab {
   height: 900px;
   overflow: hidden;
+}
+
+#left_Activit_id {
+  box-shadow: 0 1rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 0.25rem;
 }
