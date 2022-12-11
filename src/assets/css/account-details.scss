@@ -53,10 +53,10 @@
   .tab-pane:nth-child(4),
   .tab-pane:nth-child(5),
   .tab-pane:nth-child(6) {
-    min-height: 73vh;
-    max-height: 73vh;
-    overflow-x: hidden;
-    overflow-y: auto;
+    // min-height: 73vh;
+    // max-height: 73vh;
+    // overflow-x: hidden;
+    // overflow-y: auto;
   }
 }
 
@@ -217,4 +217,13 @@
 #left_Activit_id {
   box-shadow: 0 1rem 1rem rgb(0 0 0 / 15%);
   border-radius: 0.25rem;
+  margin-top: 1.5rem;
+  height: 100%;
+}
+
+@media screen and (min-height: 1100px) {
+ 
+  #left_Activit_id{
+    height: 95vh;
+  }
 }
