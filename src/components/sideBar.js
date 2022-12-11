@@ -406,7 +406,7 @@ const SideBar = ({
         </Row>
       </div>
       {/* Issues Section */}
-      <Row>
+      <Row className="mb-4">
         <Col xs="12">
           <div className="issues-card">
             <div className="issues-card-header">

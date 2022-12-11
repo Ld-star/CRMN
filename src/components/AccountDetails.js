@@ -99,8 +99,8 @@ const AccountDetails = (props) => {
     <div>
       <div className="container-fluid emp-profile">
         <Notifications />
-        <Row>
-          <Col xs="12" sm="12" md="12" lg="4" xl="4">
+        <Row className="accountDetails_wrap mb-4" >
+          <Col id="left_Activit_id" xs="12" sm="12" md="12" lg="4" xl="4">
             <SideBar
               resident={store && store.users.filter((user) => user.Role === 1)}
               lastEvent={store.lastEvent && store.lastEvent}
